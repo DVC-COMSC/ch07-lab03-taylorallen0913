@@ -1,4 +1,7 @@
-numbers = list(map(int, input().split()))
+numbers = []
+
+for i in range(5):
+    numbers.append(int(input()))
 
 avg = sum(numbers) / len(numbers)
 
